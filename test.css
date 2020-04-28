@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+#main{
+    width: 90%;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+
+#display{
+    background-color: #444;
+    color: white;
+    font-size: 48px;
+    padding: 10px;
+    text-align: right;
+}
+
+#buttons span, #buttons div , #buttons li {
+    width: 25%;
+    height: 60px;
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #ccc;
+    transition-duration: 0.4s;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    list-style-type: none;
+}
+
+#buttons div {
+    padding: 0;
+    border: 0;
+}
+
+#exponential i{
+    cursor: pointer;
+    display: inline-block;
+    width: 50%;
+    height: 60px;
+    border: 1px solid #ddd;
+    padding-top: 5px;
+}
+
+
+#buttons span:hover , #exponential i:hover , #buttons li:hover{
+    background-color: #68a;
+}
+
+#buttons .btn-number{
+    background-color: #eeaa88;
+}
+
