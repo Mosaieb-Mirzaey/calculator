@@ -61,3 +61,13 @@
     background-color: #eeaa88;
 }
 
+#footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+
