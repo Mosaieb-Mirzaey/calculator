@@ -6,6 +6,7 @@
 }
 
 #main{
+    min-height: 400px;
     width: 90%;
     margin: 10px auto;
     max-width: 800px;
@@ -68,6 +69,7 @@
     background-color: gray;
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 
