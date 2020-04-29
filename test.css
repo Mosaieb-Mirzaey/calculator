@@ -6,6 +6,7 @@
 }
 
 #main{
+    display: grid;
     min-height: 400px;
     width: 90%;
     margin: 10px auto;
@@ -63,8 +64,8 @@
 }
 
 #footer {
-    position: absolute;
-    left: 0;
+    position: relative;
+    top: 1px;
     width: 100%;
     background-color: gray;
     color: white;
